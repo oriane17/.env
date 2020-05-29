@@ -1,0 +1,23 @@
+local module = {}
+
+module.include_paths = {}
+for p in ("/home/toto/.env/encours/neovim/build/config;/home/toto/.env/encours/neovim/src;/home/toto/.env/encours/neovim/.deps/usr/include;/home/toto/.env/encours/neovim/.deps/usr/include;/home/toto/.env/encours/neovim/.deps/usr/include;/home/toto/.env/encours/neovim/.deps/usr/include;/home/toto/.env/encours/neovim/.deps/usr/include;/home/toto/.env/encours/neovim/.deps/usr/include;/usr/include" .. ";"):gmatch("[^;]+") do
+  table.insert(module.include_paths, p)
+end
+
+module.test_build_dir = "/home/toto/.env/encours/neovim/build"
+module.test_include_path = module.test_build_dir .. "/test/includes/post"
+module.test_libnvim_path = "/home/toto/.env/encours/neovim/build/lib/libnvim-test.so"
+module.test_source_path = "/home/toto/.env/encours/neovim"
+module.test_lua_prg = "/home/toto/.env/encours/neovim/.deps/usr/bin/luajit"
+module.test_luajit_prg = ""
+if module.test_luajit_prg == '' then
+  if module.test_lua_prg:sub(-6) == 'luajit' then
+    module.test_luajit_prg = module.test_lua_prg
+  else
+    module.test_luajit_prg = nil
+  end
+end
+table.insert(module.include_paths, "/home/toto/.env/encours/neovim/build/include")
+
+return module

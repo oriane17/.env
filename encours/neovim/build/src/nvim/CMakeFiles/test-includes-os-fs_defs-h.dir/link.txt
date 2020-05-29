@@ -1,0 +1,1 @@
+/usr/bin/cc -g   -Wl,--no-undefined CMakeFiles/test-includes-os-fs_defs-h.dir/auto/os/fs_defs.h.test-include.c.o  -o ../../bin/test-includes-os-fs_defs-h -fstack-protector-strong 

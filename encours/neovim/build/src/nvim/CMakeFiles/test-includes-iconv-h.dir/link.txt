@@ -1,0 +1,1 @@
+/usr/bin/cc -g   -Wl,--no-undefined CMakeFiles/test-includes-iconv-h.dir/auto/iconv.h.test-include.c.o  -o ../../bin/test-includes-iconv-h -fstack-protector-strong 

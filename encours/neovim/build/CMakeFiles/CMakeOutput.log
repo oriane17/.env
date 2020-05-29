@@ -1,0 +1,1162 @@
+The system is: Linux - 5.3.0-53-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/toto/.env/encours/neovim/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83b18/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_83b18.dir/build.make CMakeFiles/cmTC_83b18.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_83b18.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_83b18.dir/testCCompiler.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_83b18
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83b18.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_83b18.dir/testCCompiler.c.o  -o cmTC_83b18 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_785ab/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_785ab.dir/build.make CMakeFiles/cmTC_785ab.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_785ab.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_785ab.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_785ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_785ab.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_785ab.dir/CMakeCCompilerABI.c.o  -o cmTC_785ab 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_785ab' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfNKvLl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_785ab /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_785ab.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_785ab' '-mtune=generic' '-march=x86-64'
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_785ab/fast"]
+  ignore line: [make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_785ab.dir/build.make CMakeFiles/cmTC_785ab.dir/build]
+  ignore line: [make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »]
+  ignore line: [Building C object CMakeFiles/cmTC_785ab.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_785ab.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_785ab]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_785ab.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_785ab.dir/CMakeCCompilerABI.c.o  -o cmTC_785ab ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_785ab' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfNKvLl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_785ab /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_785ab.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccfNKvLl.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_785ab] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_785ab.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d8891/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_d8891.dir/build.make CMakeFiles/cmTC_d8891.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_d8891.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_d8891.dir/feature_tests.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d8891
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8891.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d8891.dir/feature_tests.c.o  -o cmTC_d8891 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4ee66/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_4ee66.dir/build.make CMakeFiles/cmTC_4ee66.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_4ee66.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_4ee66.dir/feature_tests.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4ee66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ee66.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4ee66.dir/feature_tests.c.o  -o cmTC_4ee66 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52911/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_52911.dir/build.make CMakeFiles/cmTC_52911.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_52911.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_52911.dir/feature_tests.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_52911
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52911.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_52911.dir/feature_tests.c.o  -o cmTC_52911 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Performing C SOURCE FILE Test HAS_OG_FLAG succeeded with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ad03c/fast"
+make[1]: Entering directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ad03c.dir/build.make CMakeFiles/cmTC_ad03c.dir/build
+make[2]: Entering directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad03c.dir/src.c.o
+/usr/bin/cc   -DHAS_OG_FLAG   -Og -o CMakeFiles/cmTC_ad03c.dir/src.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ad03c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad03c.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAS_OG_FLAG    CMakeFiles/cmTC_ad03c.dir/src.c.o  -o cmTC_ad03c 
+make[2]: Leaving directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAS_ACCEPTABLE_FORTIFY succeeded with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0206c/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_0206c.dir/build.make CMakeFiles/cmTC_0206c.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_0206c.dir/src.c.o
+/usr/bin/cc   -DHAS_ACCEPTABLE_FORTIFY -g   -o CMakeFiles/cmTC_0206c.dir/src.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0206c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0206c.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAS_ACCEPTABLE_FORTIFY -g    CMakeFiles/cmTC_0206c.dir/src.c.o  -o cmTC_0206c 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+Source file was:
+
+#include <string.h>
+
+#if defined(_FORTIFY_SOURCE) && _FORTIFY_SOURCE > 1
+#error "_FORTIFY_SOURCE > 1"
+#endif
+int
+main(void)
+{
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_EXECINFO_BACKTRACE succeeded with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_840a5/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_840a5.dir/build.make CMakeFiles/cmTC_840a5.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_840a5.dir/src.c.o
+/usr/bin/cc   -DHAVE_EXECINFO_BACKTRACE -g   -o CMakeFiles/cmTC_840a5.dir/src.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_840a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_840a5.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_EXECINFO_BACKTRACE -g    CMakeFiles/cmTC_840a5.dir/src.c.o  -o cmTC_840a5 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+Source file was:
+
+#include <execinfo.h>
+int main(void)
+{
+  void *trace[1];
+  backtrace(trace, 1);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_BUILTIN_ADD_OVERFLOW succeeded with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_131ff/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_131ff.dir/build.make CMakeFiles/cmTC_131ff.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_131ff.dir/src.c.o
+/usr/bin/cc   -DHAVE_BUILTIN_ADD_OVERFLOW -g   -o CMakeFiles/cmTC_131ff.dir/src.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_131ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_131ff.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_BUILTIN_ADD_OVERFLOW -g    CMakeFiles/cmTC_131ff.dir/src.c.o  -o cmTC_131ff 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+Source file was:
+
+int main(void)
+{
+  int a = 42;
+  __builtin_add_overflow(a, a, &a);
+  __builtin_sub_overflow(a, a, &a);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAS_WIMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b7f8/fast"
+make[1]: Entering directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5b7f8.dir/build.make CMakeFiles/cmTC_5b7f8.dir/build
+make[2]: Entering directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b7f8.dir/src.c.o
+/usr/bin/cc   -DHAS_WIMPLICIT_FALLTHROUGH_FLAG -g   -Wimplicit-fallthrough -o CMakeFiles/cmTC_5b7f8.dir/src.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5b7f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b7f8.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAS_WIMPLICIT_FALLTHROUGH_FLAG -g    CMakeFiles/cmTC_5b7f8.dir/src.c.o  -o cmTC_5b7f8 
+make[2]: Leaving directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAS_WVLA_FLAG succeeded with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e8c66/fast"
+make[1]: Entering directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e8c66.dir/build.make CMakeFiles/cmTC_e8c66.dir/build
+make[2]: Entering directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8c66.dir/src.c.o
+/usr/bin/cc   -DHAS_WVLA_FLAG -g   -Wvla -o CMakeFiles/cmTC_e8c66.dir/src.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e8c66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8c66.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAS_WVLA_FLAG -g    CMakeFiles/cmTC_e8c66.dir/src.c.o  -o cmTC_e8c66 
+make[2]: Leaving directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAS_FSTACK_PROTECTOR_STRONG_FLAG succeeded with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_051a2/fast"
+make[1]: Entering directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_051a2.dir/build.make CMakeFiles/cmTC_051a2.dir/build
+make[2]: Entering directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_051a2.dir/src.c.o
+/usr/bin/cc   -DHAS_FSTACK_PROTECTOR_STRONG_FLAG -g   -fstack-protector-strong -o CMakeFiles/cmTC_051a2.dir/src.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_051a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_051a2.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAS_FSTACK_PROTECTOR_STRONG_FLAG -g    CMakeFiles/cmTC_051a2.dir/src.c.o  -o cmTC_051a2 
+make[2]: Leaving directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAS_FSTACK_PROTECTOR_FLAG succeeded with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b055/fast"
+make[1]: Entering directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5b055.dir/build.make CMakeFiles/cmTC_5b055.dir/build
+make[2]: Entering directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b055.dir/src.c.o
+/usr/bin/cc   -DHAS_FSTACK_PROTECTOR_FLAG -g   -fstack-protector -o CMakeFiles/cmTC_5b055.dir/src.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5b055
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b055.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAS_FSTACK_PROTECTOR_FLAG -g    CMakeFiles/cmTC_5b055.dir/src.c.o  -o cmTC_5b055 
+make[2]: Leaving directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_FNO_COMMON succeeded with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e3465/fast"
+make[1]: Entering directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e3465.dir/build.make CMakeFiles/cmTC_e3465.dir/build
+make[2]: Entering directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3465.dir/src.c.o
+/usr/bin/cc   -DHAVE_FNO_COMMON -g   -fno-common -o CMakeFiles/cmTC_e3465.dir/src.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e3465
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3465.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_FNO_COMMON -g    CMakeFiles/cmTC_e3465.dir/src.c.o  -o cmTC_e3465 
+make[2]: Leaving directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAS_DIAG_COLOR_FLAG succeeded with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fc728/fast"
+make[1]: Entering directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fc728.dir/build.make CMakeFiles/cmTC_fc728.dir/build
+make[2]: Entering directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fc728.dir/src.c.o
+/usr/bin/cc   -DHAS_DIAG_COLOR_FLAG -g   -fdiagnostics-color=auto -o CMakeFiles/cmTC_fc728.dir/src.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fc728
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc728.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAS_DIAG_COLOR_FLAG -g    CMakeFiles/cmTC_fc728.dir/src.c.o  -o cmTC_fc728 
+make[2]: Leaving directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc572/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_dc572.dir/build.make CMakeFiles/cmTC_dc572.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_dc572.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen -g   -o CMakeFiles/cmTC_dc572.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dc572
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc572.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dlopen -g    CMakeFiles/cmTC_dc572.dir/CheckFunctionExists.c.o  -o cmTC_dc572  -L/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/dlfcn.h -Wl,-rpath,/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/dlfcn.h -ldl 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function gethostbyname exists in the nsl passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6af3e/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_6af3e.dir/build.make CMakeFiles/cmTC_6af3e.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_6af3e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -g   -o CMakeFiles/cmTC_6af3e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6af3e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6af3e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname -g    CMakeFiles/cmTC_6af3e.dir/CheckFunctionExists.c.o  -o cmTC_6af3e  -L/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/nsl.h -Wl,-rpath,/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/nsl.h -lnsl 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f6d18/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_f6d18.dir/build.make CMakeFiles/cmTC_f6d18.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_f6d18.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -g   -o CMakeFiles/cmTC_f6d18.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f6d18
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6d18.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime -g    CMakeFiles/cmTC_f6d18.dir/CheckFunctionExists.c.o  -o cmTC_f6d18  -L/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/time.h -Wl,-rpath,/home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/time.h -lrt 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Performing C SOURCE FILE Test MSGPACK_HAS_FLOAT32 succeeded with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1017/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_d1017.dir/build.make CMakeFiles/cmTC_d1017.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_d1017.dir/src.c.o
+/usr/bin/cc  -I/home/toto/.env/encours/neovim/.deps/usr/include  -DMSGPACK_HAS_FLOAT32 -g   -o CMakeFiles/cmTC_d1017.dir/src.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d1017
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1017.dir/link.txt --verbose=1
+/usr/bin/cc  -DMSGPACK_HAS_FLOAT32 -g    CMakeFiles/cmTC_d1017.dir/src.c.o  -o cmTC_d1017 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+Source file was:
+
+#include <msgpack.h>
+
+int
+main(void)
+{
+  return MSGPACK_OBJECT_FLOAT32;
+}
+
+Performing C SOURCE FILE Test UNIBI_HAS_VAR_FROM succeeded with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_292f1/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_292f1.dir/build.make CMakeFiles/cmTC_292f1.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_292f1.dir/src.c.o
+/usr/bin/cc  -I/home/toto/.env/encours/neovim/.deps/usr/include  -DUNIBI_HAS_VAR_FROM -g   -o CMakeFiles/cmTC_292f1.dir/src.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_292f1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_292f1.dir/link.txt --verbose=1
+/usr/bin/cc  -DUNIBI_HAS_VAR_FROM -g    CMakeFiles/cmTC_292f1.dir/src.c.o  -o cmTC_292f1 /home/toto/.env/encours/neovim/.deps/usr/lib/libunibilium.a 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+Source file was:
+
+  #include <unibilium.h>
+
+  int
+  main(void)
+  {
+    return unibi_num_from_var(unibi_var_from_num(0));
+  }
+  
+Performing C SOURCE FILE Test HAVE_WORKING_LIBINTL succeeded with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c70d3/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_c70d3.dir/build.make CMakeFiles/cmTC_c70d3.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_c70d3.dir/src.c.o
+/usr/bin/cc   -DHAVE_WORKING_LIBINTL -g   -o CMakeFiles/cmTC_c70d3.dir/src.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c70d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c70d3.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_WORKING_LIBINTL -g    CMakeFiles/cmTC_c70d3.dir/src.c.o  -o cmTC_c70d3 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+Source file was:
+
+#include <libintl.h>
+
+int main(int argc, char** argv) {
+  gettext("foo");
+  ngettext("foo", "bar", 1);
+  bindtextdomain("foo", "bar");
+  bind_textdomain_codeset("foo", "bar");
+  textdomain("foo");
+}
+Determining if the variable _nl_msg_cat_cntr exists passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e61a4/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_e61a4.dir/build.make CMakeFiles/cmTC_e61a4.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_e61a4.dir/CheckVariableExists.c.o
+/usr/bin/cc   -DCHECK_VARIABLE_EXISTS=_nl_msg_cat_cntr -g   -o CMakeFiles/cmTC_e61a4.dir/CheckVariableExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckVariableExists.c
+Linking C executable cmTC_e61a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e61a4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_VARIABLE_EXISTS=_nl_msg_cat_cntr -g    CMakeFiles/cmTC_e61a4.dir/CheckVariableExists.c.o  -o cmTC_e61a4 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c1857/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_c1857.dir/build.make CMakeFiles/cmTC_c1857.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_c1857.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g   -o CMakeFiles/cmTC_c1857.dir/CheckIncludeFile.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c1857
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1857.dir/link.txt --verbose=1
+/usr/bin/cc  -g    CMakeFiles/cmTC_c1857.dir/CheckIncludeFile.c.o  -o cmTC_c1857 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_94e5d/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_94e5d.dir/build.make CMakeFiles/cmTC_94e5d.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_94e5d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -g   -o CMakeFiles/cmTC_94e5d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_94e5d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94e5d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -g    CMakeFiles/cmTC_94e5d.dir/CheckFunctionExists.c.o  -o cmTC_94e5d -lpthread 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e19b5/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_e19b5.dir/build.make CMakeFiles/cmTC_e19b5.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_e19b5.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g   -o CMakeFiles/cmTC_e19b5.dir/CheckIncludeFile.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e19b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e19b5.dir/link.txt --verbose=1
+/usr/bin/cc  -g    CMakeFiles/cmTC_e19b5.dir/CheckIncludeFile.c.o  -o cmTC_e19b5 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_835a9/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_835a9.dir/build.make CMakeFiles/cmTC_835a9.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_835a9.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g   -o CMakeFiles/cmTC_835a9.dir/CheckIncludeFile.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_835a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_835a9.dir/link.txt --verbose=1
+/usr/bin/cc  -g    CMakeFiles/cmTC_835a9.dir/CheckIncludeFile.c.o  -o cmTC_835a9 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b672d/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_b672d.dir/build.make CMakeFiles/cmTC_b672d.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_b672d.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g   -o CMakeFiles/cmTC_b672d.dir/CheckIncludeFile.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b672d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b672d.dir/link.txt --verbose=1
+/usr/bin/cc  -g    CMakeFiles/cmTC_b672d.dir/CheckIncludeFile.c.o  -o cmTC_b672d 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3c42/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_c3c42.dir/build.make CMakeFiles/cmTC_c3c42.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_c3c42.dir/SIZEOF_INT.c.o
+/usr/bin/cc   -g   -o CMakeFiles/cmTC_c3c42.dir/SIZEOF_INT.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
+Linking C executable cmTC_c3c42
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3c42.dir/link.txt --verbose=1
+/usr/bin/cc  -g    CMakeFiles/cmTC_c3c42.dir/SIZEOF_INT.c.o  -o cmTC_c3c42 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9c2cd/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_9c2cd.dir/build.make CMakeFiles/cmTC_9c2cd.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_9c2cd.dir/SIZEOF_LONG.c.o
+/usr/bin/cc   -g   -o CMakeFiles/cmTC_9c2cd.dir/SIZEOF_LONG.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
+Linking C executable cmTC_9c2cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c2cd.dir/link.txt --verbose=1
+/usr/bin/cc  -g    CMakeFiles/cmTC_9c2cd.dir/SIZEOF_LONG.c.o  -o cmTC_9c2cd 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining size of intmax_t passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6519/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_d6519.dir/build.make CMakeFiles/cmTC_d6519.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_d6519.dir/SIZEOF_INTMAX_T.c.o
+/usr/bin/cc   -g   -o CMakeFiles/cmTC_d6519.dir/SIZEOF_INTMAX_T.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CheckTypeSize/SIZEOF_INTMAX_T.c
+Linking C executable cmTC_d6519
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6519.dir/link.txt --verbose=1
+/usr/bin/cc  -g    CMakeFiles/cmTC_d6519.dir/SIZEOF_INTMAX_T.c.o  -o cmTC_d6519 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6b32/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_d6b32.dir/build.make CMakeFiles/cmTC_d6b32.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_d6b32.dir/SIZEOF_SIZE_T.c.o
+/usr/bin/cc   -g   -o CMakeFiles/cmTC_d6b32.dir/SIZEOF_SIZE_T.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_d6b32
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6b32.dir/link.txt --verbose=1
+/usr/bin/cc  -g    CMakeFiles/cmTC_d6b32.dir/SIZEOF_SIZE_T.c.o  -o cmTC_d6b32 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f232b/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_f232b.dir/build.make CMakeFiles/cmTC_f232b.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_f232b.dir/SIZEOF_LONG_LONG.c.o
+/usr/bin/cc   -g   -o CMakeFiles/cmTC_f232b.dir/SIZEOF_LONG_LONG.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CheckTypeSize/SIZEOF_LONG_LONG.c
+Linking C executable cmTC_f232b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f232b.dir/link.txt --verbose=1
+/usr/bin/cc  -g    CMakeFiles/cmTC_f232b.dir/SIZEOF_LONG_LONG.c.o  -o cmTC_f232b 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining size of void * passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_966d0/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_966d0.dir/build.make CMakeFiles/cmTC_966d0.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_966d0.dir/SIZEOF_VOID_PTR.c.o
+/usr/bin/cc   -g   -o CMakeFiles/cmTC_966d0.dir/SIZEOF_VOID_PTR.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CheckTypeSize/SIZEOF_VOID_PTR.c
+Linking C executable cmTC_966d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_966d0.dir/link.txt --verbose=1
+/usr/bin/cc  -g    CMakeFiles/cmTC_966d0.dir/SIZEOF_VOID_PTR.c.o  -o cmTC_966d0 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if files langinfo.h exist passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b18a8/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_b18a8.dir/build.make CMakeFiles/cmTC_b18a8.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_b18a8.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g   -o CMakeFiles/cmTC_b18a8.dir/CheckIncludeFiles.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_b18a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b18a8.dir/link.txt --verbose=1
+/usr/bin/cc  -g    CMakeFiles/cmTC_b18a8.dir/CheckIncludeFiles.c.o  -o cmTC_b18a8 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if files locale.h exist passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5a0fb/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_5a0fb.dir/build.make CMakeFiles/cmTC_5a0fb.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_5a0fb.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g   -o CMakeFiles/cmTC_5a0fb.dir/CheckIncludeFiles.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_5a0fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a0fb.dir/link.txt --verbose=1
+/usr/bin/cc  -g    CMakeFiles/cmTC_5a0fb.dir/CheckIncludeFiles.c.o  -o cmTC_5a0fb 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if files pwd.h exist passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea69a/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_ea69a.dir/build.make CMakeFiles/cmTC_ea69a.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_ea69a.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g   -o CMakeFiles/cmTC_ea69a.dir/CheckIncludeFiles.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_ea69a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea69a.dir/link.txt --verbose=1
+/usr/bin/cc  -g    CMakeFiles/cmTC_ea69a.dir/CheckIncludeFiles.c.o  -o cmTC_ea69a 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ca3ae/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_ca3ae.dir/build.make CMakeFiles/cmTC_ca3ae.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_ca3ae.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g   -o CMakeFiles/cmTC_ca3ae.dir/CheckIncludeFiles.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_ca3ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca3ae.dir/link.txt --verbose=1
+/usr/bin/cc  -g    CMakeFiles/cmTC_ca3ae.dir/CheckIncludeFiles.c.o  -o cmTC_ca3ae 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if files sys/wait.h exist passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dd66e/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_dd66e.dir/build.make CMakeFiles/cmTC_dd66e.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_dd66e.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g   -o CMakeFiles/cmTC_dd66e.dir/CheckIncludeFiles.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_dd66e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd66e.dir/link.txt --verbose=1
+/usr/bin/cc  -g    CMakeFiles/cmTC_dd66e.dir/CheckIncludeFiles.c.o  -o cmTC_dd66e 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if files sys/utsname.h exist passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4af82/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_4af82.dir/build.make CMakeFiles/cmTC_4af82.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_4af82.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g   -o CMakeFiles/cmTC_4af82.dir/CheckIncludeFiles.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_4af82
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4af82.dir/link.txt --verbose=1
+/usr/bin/cc  -g    CMakeFiles/cmTC_4af82.dir/CheckIncludeFiles.c.o  -o cmTC_4af82 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if files termios.h exist passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40434/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_40434.dir/build.make CMakeFiles/cmTC_40434.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_40434.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g   -o CMakeFiles/cmTC_40434.dir/CheckIncludeFiles.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_40434
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40434.dir/link.txt --verbose=1
+/usr/bin/cc  -g    CMakeFiles/cmTC_40434.dir/CheckIncludeFiles.c.o  -o cmTC_40434 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if files sys/uio.h exist passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9e412/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_9e412.dir/build.make CMakeFiles/cmTC_9e412.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_9e412.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g   -o CMakeFiles/cmTC_9e412.dir/CheckIncludeFiles.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_9e412
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e412.dir/link.txt --verbose=1
+/usr/bin/cc  -g    CMakeFiles/cmTC_9e412.dir/CheckIncludeFiles.c.o  -o cmTC_9e412 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ede95/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_ede95.dir/build.make CMakeFiles/cmTC_ede95.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_ede95.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko -g   -o CMakeFiles/cmTC_ede95.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ede95
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ede95.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fseeko -g    CMakeFiles/cmTC_ede95.dir/CheckFunctionExists.c.o  -o cmTC_ede95 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function getpwent exists passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9205f/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_9205f.dir/build.make CMakeFiles/cmTC_9205f.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_9205f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getpwent -g   -o CMakeFiles/cmTC_9205f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9205f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9205f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getpwent -g    CMakeFiles/cmTC_9205f.dir/CheckFunctionExists.c.o  -o cmTC_9205f 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function getpwnam exists passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1fa38/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_1fa38.dir/build.make CMakeFiles/cmTC_1fa38.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_1fa38.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getpwnam -g   -o CMakeFiles/cmTC_1fa38.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1fa38
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fa38.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getpwnam -g    CMakeFiles/cmTC_1fa38.dir/CheckFunctionExists.c.o  -o cmTC_1fa38 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function getpwuid exists passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6205b/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_6205b.dir/build.make CMakeFiles/cmTC_6205b.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_6205b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getpwuid -g   -o CMakeFiles/cmTC_6205b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6205b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6205b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getpwuid -g    CMakeFiles/cmTC_6205b.dir/CheckFunctionExists.c.o  -o cmTC_6205b 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function readv exists passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d2ed8/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_d2ed8.dir/build.make CMakeFiles/cmTC_d2ed8.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_d2ed8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=readv -g   -o CMakeFiles/cmTC_d2ed8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d2ed8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2ed8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=readv -g    CMakeFiles/cmTC_d2ed8.dir/CheckFunctionExists.c.o  -o cmTC_d2ed8 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function opendir exists passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3cac4/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_3cac4.dir/build.make CMakeFiles/cmTC_3cac4.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_3cac4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=opendir -g   -o CMakeFiles/cmTC_3cac4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3cac4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3cac4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=opendir -g    CMakeFiles/cmTC_3cac4.dir/CheckFunctionExists.c.o  -o cmTC_3cac4 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function readlink exists passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7647/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_e7647.dir/build.make CMakeFiles/cmTC_e7647.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_e7647.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=readlink -g   -o CMakeFiles/cmTC_e7647.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e7647
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7647.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=readlink -g    CMakeFiles/cmTC_e7647.dir/CheckFunctionExists.c.o  -o cmTC_e7647 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function setpgid exists passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8cea5/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_8cea5.dir/build.make CMakeFiles/cmTC_8cea5.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_8cea5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setpgid -g   -o CMakeFiles/cmTC_8cea5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8cea5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8cea5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setpgid -g    CMakeFiles/cmTC_8cea5.dir/CheckFunctionExists.c.o  -o cmTC_8cea5 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function setsid exists passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_54714/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_54714.dir/build.make CMakeFiles/cmTC_54714.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_54714.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setsid -g   -o CMakeFiles/cmTC_54714.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_54714
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54714.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setsid -g    CMakeFiles/cmTC_54714.dir/CheckFunctionExists.c.o  -o cmTC_54714 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d398/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_9d398.dir/build.make CMakeFiles/cmTC_9d398.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_9d398.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaction -g   -o CMakeFiles/cmTC_9d398.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9d398
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d398.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigaction -g    CMakeFiles/cmTC_9d398.dir/CheckFunctionExists.c.o  -o cmTC_9d398 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20904/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_20904.dir/build.make CMakeFiles/cmTC_20904.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_20904.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcasecmp -g   -o CMakeFiles/cmTC_20904.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strcasecmp’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_20904
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20904.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strcasecmp -g    CMakeFiles/cmTC_20904.dir/CheckFunctionExists.c.o  -o cmTC_20904 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function strncasecmp exists passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65178/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_65178.dir/build.make CMakeFiles/cmTC_65178.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_65178.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strncasecmp -g   -o CMakeFiles/cmTC_65178.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strncasecmp’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_65178
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65178.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strncasecmp -g    CMakeFiles/cmTC_65178.dir/CheckFunctionExists.c.o  -o cmTC_65178 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the FD_CLOEXEC exist passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f7948/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_f7948.dir/build.make CMakeFiles/cmTC_f7948.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_f7948.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g   -o CMakeFiles/cmTC_f7948.dir/CheckSymbolExists.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f7948
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7948.dir/link.txt --verbose=1
+/usr/bin/cc  -g    CMakeFiles/cmTC_f7948.dir/CheckSymbolExists.c.o  -o cmTC_f7948 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+File /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FD_CLOEXEC
+  return ((int*)(&FD_CLOEXEC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CODESET exist passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_702a5/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_702a5.dir/build.make CMakeFiles/cmTC_702a5.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_702a5.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g   -o CMakeFiles/cmTC_702a5.dir/CheckSymbolExists.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_702a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_702a5.dir/link.txt --verbose=1
+/usr/bin/cc  -g    CMakeFiles/cmTC_702a5.dir/CheckSymbolExists.c.o  -o cmTC_702a5 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+File /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <langinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CODESET
+  return ((int*)(&CODESET))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files endian.h exist passed with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0d54/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_a0d54.dir/build.make CMakeFiles/cmTC_a0d54.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_a0d54.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g   -o CMakeFiles/cmTC_a0d54.dir/CheckIncludeFiles.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_a0d54
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0d54.dir/link.txt --verbose=1
+/usr/bin/cc  -g    CMakeFiles/cmTC_a0d54.dir/CheckIncludeFiles.c.o  -o cmTC_a0d54 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+
+Performing C SOURCE FILE Test HAVE_BE64TOH_MACROS succeeded with the following output:
+Change Dir: /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_066c8/fast"
+make[1] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_066c8.dir/build.make CMakeFiles/cmTC_066c8.dir/build
+make[2] : on entre dans le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_066c8.dir/src.c.o
+/usr/bin/cc   -DHAVE_BE64TOH_MACROS -g   -o CMakeFiles/cmTC_066c8.dir/src.c.o   -c /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_066c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_066c8.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_BE64TOH_MACROS -g    CMakeFiles/cmTC_066c8.dir/src.c.o  -o cmTC_066c8 
+make[2] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/toto/.env/encours/neovim/build/CMakeFiles/CMakeTmp »
+
+Source file was:
+
+  #define _BSD_SOURCE 1
+  #define _DEFAULT_SOURCE 1
+  #include <stdint.h>
+
+  #include <endian.h>
+  #ifndef be64toh
+  # error No be64toh macros
+  #endif
+  int main(int argc,char**argv)
+{
+  uint64_t i=0x0102030405060708ULL;
+    uint64_t j = be64toh(i);
+    return (j == 0);  // j must not be zero
+  }

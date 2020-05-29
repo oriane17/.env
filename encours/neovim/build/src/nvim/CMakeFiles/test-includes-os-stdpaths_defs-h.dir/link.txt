@@ -1,0 +1,1 @@
+/usr/bin/cc -g   -Wl,--no-undefined CMakeFiles/test-includes-os-stdpaths_defs-h.dir/auto/os/stdpaths_defs.h.test-include.c.o  -o ../../bin/test-includes-os-stdpaths_defs-h -fstack-protector-strong 

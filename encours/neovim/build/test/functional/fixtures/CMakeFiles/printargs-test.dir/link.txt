@@ -1,0 +1,1 @@
+/usr/bin/cc -g   -Wl,--no-undefined CMakeFiles/printargs-test.dir/printargs-test.c.o  -o ../../../bin/printargs-test -fstack-protector-strong 

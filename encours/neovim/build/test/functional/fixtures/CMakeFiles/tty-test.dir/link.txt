@@ -1,0 +1,1 @@
+/usr/bin/cc -g   -Wl,--no-undefined CMakeFiles/tty-test.dir/tty-test.c.o  -o ../../../bin/tty-test -fstack-protector-strong ../../../../.deps/usr/lib/libuv.a -lrt -lpthread -lnsl -ldl -ldl -lnsl -lrt -lpthread 

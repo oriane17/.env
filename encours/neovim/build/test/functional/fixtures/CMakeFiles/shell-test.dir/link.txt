@@ -1,0 +1,1 @@
+/usr/bin/cc -g   -Wl,--no-undefined CMakeFiles/shell-test.dir/shell-test.c.o  -o ../../../bin/shell-test -fstack-protector-strong 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   -Wl,--no-undefined CMakeFiles/test-includes-os-pty_process_win-h.dir/auto/os/pty_process_win.h.test-include.c.o  -o ../../bin/test-includes-os-pty_process_win-h -fstack-protector-strong 

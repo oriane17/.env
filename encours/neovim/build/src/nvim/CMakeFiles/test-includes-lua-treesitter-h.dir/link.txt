@@ -1,0 +1,1 @@
+/usr/bin/cc -g   -Wl,--no-undefined CMakeFiles/test-includes-lua-treesitter-h.dir/auto/lua/treesitter.h.test-include.c.o  -o ../../bin/test-includes-lua-treesitter-h -fstack-protector-strong 
