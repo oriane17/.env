@@ -21,7 +21,7 @@ CFLAGS=-O -I/home/toto/.env/usr/include -I/usr/X11R6/include -DUSE_DIRENT -DUSE_
 
 ARFLAGS=-urs
 
-LIBS=-L/usr/X11R6/lib -L/home/toto/.env/usr/lib/x86_64-linux-gnu/ -lXm -lXt -lX11 -lm -ljpeg
+LIBS=-L/usr/X11R6/lib -L/home/toto/.env/usr/lib/x86_64-linux-gnu/ -lXm -lXt -lX11 -lm -ljpeg -lxcb -ldl
 
 include Makefile.common
 
